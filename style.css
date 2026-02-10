@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: 'Merriweather', serif;
+    background: linear-gradient(160deg, #fdf6e3, #f5e6d0);
+    color: #2b2b2b;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Top-right Date */
+.top-right {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: #5e503f;
+}
+
+/* Disclaimer */
+.disclaimer {
+    font-size: 14px;
+    color: #6a4f4b;
+    font-style: italic;
+    text-align: left;
+    margin: 15px 0;
+    line-height: 1.4;
+}
+
+/* Main Title */
+.main-title {
+    color: #5b2c6f;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-color: #d6b656;
+    text-decoration-thickness: 3px;
+}
+
+/* Subtitles */
+.sub-title {
+    color: #7d3c98;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color: #d6b656;
+    text-decoration-thickness: 2px;
+}
+
+/* Paragraphs */
+p {
+    text-indent: 2ch;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 2ch;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Bulletin Box */
+.bullet-box {
+    background-color: #f9f4ec;
+    border: 2px solid #d6c4a8;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 18px;
+    color: #4b0082;
+}
+
+.bullet-box ol {
+    padding-left: 1em;
+}
+
+.bullet-box ul {
+    padding-left: 1.2em;
+    list-style-type: disc;
+}
+
+/* Orange Highlight Point */
+.orange-point {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* Important Note */
+.important-note {
+    background-color: #fff3e0;
+    border-left: 5px solid #d6c4a8;
+    padding: 10px 15px;
+    margin: 15px 0;
+    font-size: 18px;
+    color: #4b0082;
+}
+
+/* Images */
+.image-placeholder {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-placeholder img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* End Symbols */
+.end-symbols {
+    text-align: center;
+    font-size: 24px;
+    color: #d6b656;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    font-size: 18px;
+    color: #5e503f;
+    margin-top: 10px;
+}
+
+.name-handwriting {
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    margin-left: -10px;
+    background: linear-gradient(90deg, #8e44ad, #d35400);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.feather-icon {
+    height: 60px;
+    width: auto;
+    margin-left: -15px;
+    margin-bottom: -5px;
+}
+
+/* Slide sections spacing */
+.slide {
+    margin-bottom: 50px;
+}
